@@ -1,0 +1,590 @@
+/********** Common CSS Starts **********/  
+html, body {
+  font-family: 'Roboto', sans-serif, arial;
+  font-size: 14px;
+  color: #242424;
+  font-weight: 400;
+}
+html {
+  -webkit-text-size-adjust:100%;
+  -ms-text-size-adjust:100%;
+  font-size:10px;
+  -webkit-tap-highlight-color:transparent 
+}
+* {
+  margin:0px;
+  padding:0px;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  outline:0 
+}
+.container {
+  width:1150px;
+  margin:0px auto;
+  display:table;
+}
+.width-100 {
+  width:100%;
+  float:left;
+}
+.width-50 {
+  width:50%;
+  float:left;
+}
+.width-25 {
+  width:25%;
+  float:left;
+}
+.width-75 {
+  width:75%;
+  float:left;
+}
+.width-80 {
+  width:80%;
+  float:left;
+}
+.width-60 {
+  width:60%;
+  float:left;
+}
+.width-40 {
+  width:40%;
+  float:left;
+}
+.width-33 {
+  width:33%;
+  float:left;
+}
+.width-30 {
+  width:30%;
+  float:left;
+}
+.width-20 {
+  width:20%;
+  float:left;
+}
+.main-section {
+  width:100%;
+  float:left;
+  padding-top:80px;
+  padding-bottom:80px;
+}
+.bg-grey {
+  background:#f0f3fa;
+}
+.heading-section {
+  font-size: 25px;
+  text-align: center;
+}
+.heading-section span {
+  color: #000046;
+}
+.subhead-section {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+/********** Common CSS Ends **********/
+/********** Top Header Starts **********/  
+.header-top {
+  background: rgb(0,0,70);
+background: linear-gradient(90deg, rgba(0,0,70,1) 0%, rgba(0,0,70,1) 0%, rgba(28,181,224,1) 100%);
+  width: 100%;
+  float: left;
+}
+.header-left {
+  list-style:none;
+  float:left;
+}
+.header-left li {
+  float: left;
+  padding: 10px 0px;
+  margin-right: 20px;
+}
+.header-left li a {
+  font-size:15px;
+  color:#ffffff;
+  text-decoration:none;
+}
+.header-right {
+  list-style:none;
+  float:right;
+}
+.header-right li {
+  float:left;
+  padding: 10px 0px;
+  margin-right:12px;
+}
+.header-right li a {
+  font-size:16px;
+  color:#ffffff;
+  text-decoration:none;
+}
+/********** Top Header Ends **********/
+/********** Logo And Menu CSS Starts **********/  
+.header-menu {
+  width: 100%;
+  float: left;
+  position: relative;
+  padding:10px 0px 2px 0px;
+}
+.logo {
+  position: absolute;
+  height:130px;
+  width: auto;
+  top: 0px;
+}
+.header-menu ul {
+  list-style:none;
+  float:left;
+}
+.header-menu ul li {
+  float:left;
+  color:black;
+  margin: 20px 20px 20px 0px;
+}
+.header-menu ul li a {
+  text-decoration: none;
+  font-weight:600;
+  font-size: 18px;
+  color: #484848;
+}
+/********** Logo And Menu CSS Ends **********/
+/********** Slider and Notification CSS Starts **********/  
+.banner {
+  width:100%;
+  border-top:1px solid #cccfff;
+}
+.notification {
+  width: 100%;
+  float: left;
+  padding: 12px;
+  background: #ebebeb;
+}
+.notification b {
+  color: #000046;
+  font-size: 18px;
+  float: left;
+  position: absolute;
+  background: #e3e3e3;
+  z-index: 9999;
+}
+.notification marquee {
+  list-style:none;
+  font-size: 16px;
+}
+.notification marquee img {
+  height:16px;
+}
+/********** Slider and Notification CSS Ends **********/
+/********** About us CSS Starts **********/  
+.about-img img {
+  width:100%;
+  padding:0px 25px 0px 0px;
+}
+.about-detail h6 {
+  font-size:16px;
+  color: #000046;
+}
+.about-detail h1 {
+  font-size: 32px;
+  margin:5px 0px 10px 0px;
+  color: #1f2836;
+}
+.about-detail h1 span {
+  color: #000046;
+}
+.about-detail p {
+  font-size: 14px;
+  line-height: 25px;
+  color: #1e1e1e;
+}
+.about-box {
+  width:94%;
+  float: left;
+  margin-right: 1%;
+  border-radius:5px;
+  padding: 15px 15px;
+  text-align:center;
+  margin-top:10px;
+  border: 2px solid #000046;
+}
+.about-box img {
+  height:100px;
+}
+.about-box h5 {
+  font-size: 16px;
+  margin-top:10px;
+  margin-bottom: 5px;
+}
+/********** About us CSS Ends **********/
+/********** Notice Bord and Upcoming Events CSS Starts **********/  
+.notice-board-sect {
+  background: #fff;
+  float: left;
+  margin: 0px auto;
+  display: table;
+  width: 98%;
+  padding: 15px 10px 20px 10px;
+}
+.notice-board-sect h2 {
+  font-size: 20px;
+  text-align: left;
+  padding: 10px 10px 10px 20px;
+  width: 100%;
+  float: left;
+  color: #000046;
+}
+.notice-board {
+  width: 100%;
+  float: left;
+  border:3px solid #000046;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.notice-board ul {
+  list-style:none;
+  width: 100%;
+  float:left;
+  padding:0px 10px 0px 5px;
+}
+.notice-board ul li {
+  width: 100%;
+  float:left;
+  font-size: 16px;
+  margin-bottom:20px;
+}
+.notice-board img {
+  margin-right: 5px;
+  margin-left: 5px;
+  width:35px;
+}
+.event-list {
+  width: 100%;
+  float: left;
+  padding:0px;
+}
+.event-list li {
+  width: 100%;
+  float: left;
+  box-shadow: 0px 0px 2px 0px #ffffff1f;
+  margin-bottom: 20px;
+  list-style: none;
+  padding: 10px 6px 10px 5px;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+}
+.event-date {
+  float: left;
+  width:85px;
+  text-align: center;
+  border:2px solid #000046;
+  padding-top: 5px;
+  border-radius: 10px;
+}
+.event-date h3 {
+  font-size: 18px;
+  padding-top: 0px;
+}
+.event-date p {
+  font-size: 14px;
+  background: #000046;
+  color: #fff;
+  padding: 5px;
+  margin-top: 5px;
+}
+.event-content {
+  float: left;
+  width: calc(100% - 90px);
+  padding: 0px 0px 0px 10px;
+}
+.event-content h5 {
+  font-size:18px;
+  margin-bottom: 6px;
+  color: #424242;
+  font-weight: 500;
+}
+.event-content a {
+  color: #000046;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 50px;
+}
+.event-content p {
+  font-size: 16px;
+  border-top: 1px solid #e3e3e3;
+  margin-top: 8px;
+  padding-top: 9px;
+}
+/********** Notice Bord and Upcoming Events CSS Ends **********/
+/********** Popular Courses CSS Starts **********/  
+.course-list {
+  width: 100%;
+  float:left;
+  padding:0px;
+  list-style:none;
+}
+.course-list li {
+  width: 23%;
+  float: left;
+  list-style: none;
+  text-align: center;
+  padding: 20px 2px;
+  margin:1%;
+  border-radius:10px;
+}
+.course-list p {
+  color:#000;
+  font-size:18px;
+  margin-top:10px;
+  color: #fff;
+}
+.course-list i {
+  font-size:38px;
+  color: #fff;
+}
+ul.course-list li:nth-child(1) {
+  background: #2196f3;
+}
+ul.course-list li:nth-child(2) {
+  background: #ff5722;
+}
+ul.course-list li:nth-child(3) {
+  background: #8bc34a;
+}
+ul.course-list li:nth-child(4) {
+  background: #ff9800;
+}
+/********** Popular Courses CSS Ends **********/
+/********** Principal Info CSS Starts **********/  
+.principal-img img {
+  width:100%;
+  border:5px solid #000046;
+  padding:4px 
+}
+.principal-info {
+  width: 100%;
+  float: left;
+  padding:30px;
+}
+.principal-info h6 {
+  font-size: 15px;
+  margin-bottom: 15px;
+  color: #000046;
+}
+.principal-info h1 {
+  color: black;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.principal-info h1 span {
+  color: #000046;
+}
+.principal-info h5 {
+  font-size: 16px;
+  margin-bottom: 30px;
+  font-weight: 400;
+  color:#585858;
+}
+.principal-info p {
+  font-size: 15px;
+  margin-bottom: 30px;
+  line-height: 25px;
+  color:#1e1e1e;
+}
+.principal-info a {
+  background: #000046;
+  text-decoration: none;
+  color: #fff;
+  padding: 12px 20px;
+  float: left;
+  border-radius: 5px;
+}
+/********** Principal Info CSS Ends **********/
+/********** Gallery CSS Starts **********/  
+.gallery {
+  width: 100%;
+  float: left;
+  margin-top: 30px;
+}
+.gallery img {
+  height: auto;
+  width: 98%;
+  margin-bottom: 10px;
+}
+/********** Gallery CSS Ends **********/
+/********** Achievement CSS Starts **********/  
+.counter {
+  text-align: center;
+  padding: 30px 20px 30px 20px;
+  width: 90%;
+  margin: 1%;
+  background: #000046;
+  color: #fff;
+  border-radius:10px;
+}
+.counter i {
+  font-size:50px;
+}
+.counter h5 {
+  font-size: 25px;
+  margin-top: 10px;
+}
+.counter p {
+  font-size:14px;
+}
+/********** Achievement CSS Ends **********/
+/********** Placement Company CSS Starts **********/  
+.placement p {
+  font-size: 16px;
+  color: #2a2a2a;
+  line-height: 30px;
+}
+.placement ul {
+  width: 100%;
+  float: left;
+  list-style:none;
+  padding:0px;
+  margin-top: 20px;
+}
+.placement ul li {
+  width: 24%;
+  float: left;
+  margin-right: 1%;
+}
+.placement ul li img {
+  width: 100%;
+  border: 1px solid darkgrey;
+}
+.placement-img {
+  width:100%;
+  padding:0px 30px 30px 30px;
+}
+/********** Placement Company CSS Ends **********/
+/********** Testimonial CSS Starts **********/  
+.tetimonial {
+  width: 340px;
+  background: white;
+  border: 1px solid rgb(0 0 0/10%);
+  padding: 35px 15px;
+  float: left;
+  margin-right:10px;
+}
+.tetimonial img {
+  border-radius:50px;
+  width:100%;
+}
+.tetimonial-user {
+  padding-left: 15px;
+  padding-top: 5px;
+}
+.tetimonial-user h4 {
+  font-size: 16px;
+  color: black;
+  margin-bottom: 5px;
+}
+.tetimonial-user p {
+  color: #818385;
+  font-size: 12px;
+}
+.tetimonial .fa-quote-right {
+  font-size:40px;
+  margin-top: 5px;
+  color:#000046;
+}
+.testimonial-comment {
+  width: 100%;
+  float: left;
+  margin-top: 30px;
+}
+.testimonial-comment h4 {
+  color: #000046;
+  font-size: 20px;
+  margin-bottom:15px;
+}
+.testimonial-comment p {
+  font-size: 15px;
+  margin-bottom:20px;
+  ;
+  line-height: 25px;
+  color:#1f2836;
+}
+.testimonial-comment i {
+  color:#ff5722;
+  font-size:18px;
+}
+/********** Testimonial CSS Ends **********/
+/********** Footer CSS Starts **********/  
+.footer-section {
+     padding-top: 50px;
+     padding-bottom:20px;
+     background: rgb(0,0,70);
+background: linear-gradient(90deg, rgba(0,0,70,1) 0%, rgba(0,0,70,1) 0%, rgba(28,181,224,1) 100%);
+     width: 100%;
+     float: left;
+}
+ .footer-section h3 {
+     font-size:28px;
+     color:#fff;
+}
+ .footer-section p {
+     font-size: 14px;
+     line-height: 25px;
+     color: #fff;
+     margin-top: 20px;
+     padding: 0px 30px 0px 0px;
+}
+ .footer-about i {
+     border: 1px solid #e5e3e3;
+     font-size: 20px;
+     margin-right: 10px;
+     margin-top:20px;
+     background: #fff;
+     border-radius: 50%;
+     height: 40px;
+     width: 40px;
+     text-align: center;
+     line-height: 40px;
+     color: #000046;
+}
+ .quick-link ul {
+     margin-top:30px;
+     list-style:none;
+     float:left;
+     width: 100%;
+}
+ .quick-link li {
+     width: 50%;
+     float:left;
+     margin-bottom: 10px;
+}
+ .quick-link li a {
+     font-size:14px;
+     color:#fff;
+     text-decoration:none;
+}
+ .subscribe-us input {
+     margin-top:20px;
+     padding: 10px;
+     border: 1px solid #e5e3e3;
+     border-radius: 5px;
+     width: 100%;
+     color: #000000;
+     text-align: left;
+     background: #fff;
+     height: 42px;
+}
+ .subscribe-us button {
+     padding: 12px;
+     background: #ff5722;
+     color: white;
+     font-size: 14px;
+     width: 100%;
+     float: left;
+     margin-top: 10px;
+     border: none;
+}
+/********** Footer CSS Ends **********/
